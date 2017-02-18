@@ -17,6 +17,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    self.title = @"首页";
+    
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    UIImageView *imageView = [[UIImageView alloc] initWithFrame:self.view.bounds];
+    
+    imageView.image = [UIImage imageNamed:@"main.jpg"];
+    
+    [self.view addSubview:imageView];
+
 }
 
 - (void)didReceiveMemoryWarning {

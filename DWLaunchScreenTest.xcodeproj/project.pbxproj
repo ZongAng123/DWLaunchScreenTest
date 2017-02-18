@@ -15,6 +15,13 @@
 		74A86D951E56EB8A0012D0C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74A86D931E56EB8A0012D0C9 /* LaunchScreen.storyboard */; };
 		74A86DA01E56EB8A0012D0C9 /* DWLaunchScreenTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A86D9F1E56EB8A0012D0C9 /* DWLaunchScreenTestTests.m */; };
 		74A86DAB1E56EB8A0012D0C9 /* DWLaunchScreenTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A86DAA1E56EB8A0012D0C9 /* DWLaunchScreenTestUITests.m */; };
+		74A86DBA1E56EBE60012D0C9 /* UIImageView+GIFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A86DB91E56EBE60012D0C9 /* UIImageView+GIFExtension.m */; };
+		74A86DBD1E56EC250012D0C9 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A86DBC1E56EC250012D0C9 /* UIView+Extension.m */; };
+		74A86DC01E56EC5A0012D0C9 /* DWLaunchScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A86DBF1E56EC5A0012D0C9 /* DWLaunchScreen.m */; };
+		74A86DC61E56EEB10012D0C9 /* main.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74A86DC21E56EEB10012D0C9 /* main.jpg */; };
+		74A86DC71E56EEB10012D0C9 /* fengjing.gif in Resources */ = {isa = PBXBuildFile; fileRef = 74A86DC31E56EEB10012D0C9 /* fengjing.gif */; };
+		74A86DC81E56EEB10012D0C9 /* cat.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 74A86DC41E56EEB10012D0C9 /* cat.jpeg */; };
+		74A86DC91E56EEB10012D0C9 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74A86DC51E56EEB10012D0C9 /* bg.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,16 @@
 		74A86DA61E56EB8A0012D0C9 /* DWLaunchScreenTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DWLaunchScreenTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74A86DAA1E56EB8A0012D0C9 /* DWLaunchScreenTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWLaunchScreenTestUITests.m; sourceTree = "<group>"; };
 		74A86DAC1E56EB8A0012D0C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74A86DB81E56EBE60012D0C9 /* UIImageView+GIFExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+GIFExtension.h"; sourceTree = "<group>"; };
+		74A86DB91E56EBE60012D0C9 /* UIImageView+GIFExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+GIFExtension.m"; sourceTree = "<group>"; };
+		74A86DBB1E56EC250012D0C9 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		74A86DBC1E56EC250012D0C9 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		74A86DBE1E56EC5A0012D0C9 /* DWLaunchScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWLaunchScreen.h; sourceTree = "<group>"; };
+		74A86DBF1E56EC5A0012D0C9 /* DWLaunchScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWLaunchScreen.m; sourceTree = "<group>"; };
+		74A86DC21E56EEB10012D0C9 /* main.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = main.jpg; sourceTree = "<group>"; };
+		74A86DC31E56EEB10012D0C9 /* fengjing.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = fengjing.gif; sourceTree = "<group>"; };
+		74A86DC41E56EEB10012D0C9 /* cat.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpeg; sourceTree = "<group>"; };
+		74A86DC51E56EEB10012D0C9 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +118,17 @@
 		74A86D841E56EB8A0012D0C9 /* DWLaunchScreenTest */ = {
 			isa = PBXGroup;
 			children = (
+				74A86DC11E56EE990012D0C9 /* IMage */,
 				74A86D881E56EB8A0012D0C9 /* AppDelegate.h */,
 				74A86D891E56EB8A0012D0C9 /* AppDelegate.m */,
 				74A86D8B1E56EB8A0012D0C9 /* ViewController.h */,
 				74A86D8C1E56EB8A0012D0C9 /* ViewController.m */,
+				74A86DB81E56EBE60012D0C9 /* UIImageView+GIFExtension.h */,
+				74A86DB91E56EBE60012D0C9 /* UIImageView+GIFExtension.m */,
+				74A86DBB1E56EC250012D0C9 /* UIView+Extension.h */,
+				74A86DBC1E56EC250012D0C9 /* UIView+Extension.m */,
+				74A86DBE1E56EC5A0012D0C9 /* DWLaunchScreen.h */,
+				74A86DBF1E56EC5A0012D0C9 /* DWLaunchScreen.m */,
 				74A86D8E1E56EB8A0012D0C9 /* Main.storyboard */,
 				74A86D911E56EB8A0012D0C9 /* Assets.xcassets */,
 				74A86D931E56EB8A0012D0C9 /* LaunchScreen.storyboard */,
@@ -138,6 +162,17 @@
 				74A86DAC1E56EB8A0012D0C9 /* Info.plist */,
 			);
 			path = DWLaunchScreenTestUITests;
+			sourceTree = "<group>";
+		};
+		74A86DC11E56EE990012D0C9 /* IMage */ = {
+			isa = PBXGroup;
+			children = (
+				74A86DC21E56EEB10012D0C9 /* main.jpg */,
+				74A86DC31E56EEB10012D0C9 /* fengjing.gif */,
+				74A86DC41E56EEB10012D0C9 /* cat.jpeg */,
+				74A86DC51E56EEB10012D0C9 /* bg.jpg */,
+			);
+			name = IMage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,8 +278,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74A86DC61E56EEB10012D0C9 /* main.jpg in Resources */,
 				74A86D951E56EB8A0012D0C9 /* LaunchScreen.storyboard in Resources */,
+				74A86DC81E56EEB10012D0C9 /* cat.jpeg in Resources */,
 				74A86D921E56EB8A0012D0C9 /* Assets.xcassets in Resources */,
+				74A86DC91E56EEB10012D0C9 /* bg.jpg in Resources */,
+				74A86DC71E56EEB10012D0C9 /* fengjing.gif in Resources */,
 				74A86D901E56EB8A0012D0C9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +309,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74A86DBD1E56EC250012D0C9 /* UIView+Extension.m in Sources */,
 				74A86D8D1E56EB8A0012D0C9 /* ViewController.m in Sources */,
 				74A86D8A1E56EB8A0012D0C9 /* AppDelegate.m in Sources */,
+				74A86DC01E56EC5A0012D0C9 /* DWLaunchScreen.m in Sources */,
 				74A86D871E56EB8A0012D0C9 /* main.m in Sources */,
+				74A86DBA1E56EBE60012D0C9 /* UIImageView+GIFExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
